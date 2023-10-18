@@ -1,11 +1,221 @@
-.App {
-  text-align: center;
+.image {
+  width: 80px;
+  float: left;
+  margin-top: 10px
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
 }
+
+.nav-ul li a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: #0b0e12;
+  width: 100%;
+}
+
+.nav-right {
+  text-align: right
+}
+
+.footer {
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+}
+
+
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  /* Adjust the height as needed */
+}
+
+.signup-box {
+  background-color: #fff;
+  /* Background color of the box */
+  padding: 30px;
+  /* Adjust the padding as needed */
+  border: 1px solid #ccc;
+  /* Add a border if desired */
+  border-radius: 5px;
+  /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* Add a shadow for depth */
+  max-width: 400px;
+  /* Adjust the maximum width as needed */
+  width: 100%;
+}
+
+.login-inputbox {
+  margin-bottom: auto;
+  padding: 10px;
+}
+
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid black;
+
+}
+
+.appButton {
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: -15px;
+  padding: 10px;
+  width: 325px;
+  background-color: black;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.signup-link-container {
+  margin-left: 20px;
+  margin-top: -15px;
+  width: 325px;
+  padding: 10px;
+}
+
+.product-box {
+  margin: 50px;
+  background-color: #fff;
+  /* Background color of the box */
+  padding: 20px;
+  /* Adjust the padding as needed */
+  border: 1px solid #ccc;
+  /* Add a border if desired */
+  border-radius: 5px;
+  /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* Add a shadow for depth */
+  max-width: 90%;
+  /* Adjust the maximum width as needed */
+  width: 100%;
+}
+
+.update-delete {
+  display: flex;
+  /* Make the buttons flex items */
+  justify-content: right
+}
+
+.update-link {
+  position: relative;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(241, 228, 50);
+  /* Add background color for the button */
+  color: white;
+  /* Text color for the button */
+  border: none;
+  /* Remove button border */
+  border-radius: 0px;
+  /* Add border radius for rounded corners */
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+
+
+.delete-button {
+  position: relative;
+  margin: 5px;
+  padding: 5px;
+  background-color: red;
+  /* Add background color for the button */
+  color: white;
+  /* Text color for the button */
+  border: none;
+  /* Remove button border */
+
+  /* Adjust padding as needed */
+  border-radius: 2px;
+  /* Add border radius for rounded corners */
+  cursor: pointer;
+}
+
+
+.spam-text {
+  display: block;
+  margin-top: -20px;
+  margin-left: 25px;
+  color: red
+}
+.search-box {
+  max-width: 97%;
+  display: flex;
+  border-radius: 10px;
+  justify-content: flex-end;
+  margin: 1px;
+  padding: 5px;
+  color: black;
+}
+.search-box input {
+  /* Add any additional styling for the input element here */
+  /* For example, width, border, background, etc. */
+  width: 200px; /* Adjust the width as needed */
+}
+.profile-image{
+  width: 40%;
+  height: 400px;
+  float: left;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+.profile-data{
+  margin: 10px;
+  margin-left: 45%;
+
+}
+
+.profile-box {
+  background-color: #fff;
+  /* Background color of the box */
+  padding: 35px;
+  /* Adjust the padding as needed */
+  border: 1px solid #ccc;
+  /* Add a border if desired */
+  border-radius: 5px;
+  /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* Add a shadow for depth */
+  max-width: 35%;
+  /* Adjust the maximum width as needed */
+  width: 80%;
+  margin-top: 3px;
+  margin-left: 50%;
+}
+
+.background-container {
+  background-image: url('../public/image/NewHome.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 80vh;
+  margin-top: -20px;
+  /* Other background properties like background-position can be added here */
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -32,6 +242,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
